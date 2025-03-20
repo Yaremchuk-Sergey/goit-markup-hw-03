@@ -6,7 +6,7 @@ body {
 
 /* header */
 
-.nav {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -22,18 +22,23 @@ body {
   display: flex;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 img {
   display: block;
 }
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 ul,
 ol {
   list-style-type: none;
-  padding-left: 0;
 }
 
 a {
@@ -45,17 +50,25 @@ a {
 }
 
 .site-nav {
-  display: flex;
   gap: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .link {
   padding: 24px 0;
+  display: block;
 }
 
 .site-address {
   display: flex;
+  align-items: center;
   gap: 40px;
+}
+
+.header-logo {
+  margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-web {
@@ -66,7 +79,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
 
 .site-nav .link {
@@ -89,6 +101,7 @@ a {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address .contacts {
@@ -96,6 +109,8 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding: 24px 0;
 }
 
 .address .contacts:hover,
