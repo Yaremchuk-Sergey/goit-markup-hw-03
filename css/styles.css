@@ -5,8 +5,18 @@ body {
 }
 
 /* header */
+
+img {
+    display: block;
+}
+
+* {
+    margin: 0;
+}
+
 ul, ol {
     list-style-type: none;
+    padding-left: 0;
 }
 
 a {
@@ -66,6 +76,7 @@ a {
 .page-main {
     background-color: #2E2F42;
     color: #ffffff;
+
 }
 
 .page-main .heading {
