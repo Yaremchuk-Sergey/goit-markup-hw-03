@@ -42,11 +42,17 @@ a {
 
 .accent {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .site-nav {
   display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+
+.site-address {
+  display: flex;
+  gap: 40px;
 }
 
 .logo-web {
@@ -57,6 +63,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .site-nav .link {
