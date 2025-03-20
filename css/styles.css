@@ -47,6 +47,9 @@ a {
 .site-nav {
   display: flex;
   gap: 40px;
+}
+
+.link {
   padding: 24px 0;
 }
 
