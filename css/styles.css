@@ -356,5 +356,9 @@ a {
   align-items: left;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 16px;
+}
+
+.logo-web {
+  display: inline-block;
+  margin-bottom: 16px;
 }
