@@ -47,6 +47,7 @@ a {
 
 .accent {
   color: #2e2f42;
+  display: inline-block;
 }
 
 .site-nav {
@@ -352,6 +353,7 @@ a {
   color: #f4f4fd;
 }
 .finish .container {
+  display: flex;
   align-items: left;
   justify-content: flex-start;
   flex-direction: column;
@@ -360,5 +362,5 @@ a {
 .logo-web {
   display: inline-block;
   margin-bottom: 16px;
-  display: inline-block;
+  /* display: inline-block; */
 }
