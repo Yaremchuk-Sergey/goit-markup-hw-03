@@ -31,14 +31,21 @@ img {
   display: block;
 }
 
-* {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
-  padding: 0;
 }
 
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -47,7 +54,6 @@ a {
 
 .accent {
   color: #2e2f42;
-  display: inline-block;
 }
 
 .site-nav {
@@ -352,6 +358,7 @@ a {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
 .finish .container {
   display: flex;
   align-items: left;
@@ -360,7 +367,6 @@ a {
 }
 
 .logo-web {
-  display: inline-block;
   margin-bottom: 16px;
-  /* display: inline-block; */
+  display: inline-block;
 }
