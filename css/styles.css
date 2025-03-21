@@ -159,6 +159,7 @@ a {
   border: none;
   margin-top: 35px;
   margin-bottom: 188px;
+  border-radius: 4px;
 }
 
 /* flex-grow: 0;
