@@ -329,12 +329,17 @@ a {
 
 .finish {
   background-color: #2e2f42;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 .text-list-three {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .finish .accent {
@@ -345,4 +350,11 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.finish .container {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
 }
