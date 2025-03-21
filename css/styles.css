@@ -154,7 +154,7 @@ a {
   letter-spacing: 4%;
   background-color: #4d5ae5;
   cursor: pointer;
-  display: inline-block;
+  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -282,6 +282,22 @@ a {
 
 /* 4 секція */
 
+.heading-three {
+  margin-bottom: 8px;
+}
+
+.text-four {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  text-align: left;
+}
+
+.page-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .page-four .container {
   flex-direction: column;
 }
@@ -296,7 +312,6 @@ a {
 .page-four .heading-two {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
