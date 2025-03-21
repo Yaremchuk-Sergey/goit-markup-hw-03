@@ -290,7 +290,11 @@ a {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .page-four {
