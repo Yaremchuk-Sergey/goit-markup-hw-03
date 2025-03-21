@@ -360,7 +360,6 @@ a {
 }
 
 .finish .container {
-  display: flex;
   align-items: left;
   justify-content: flex-start;
   flex-direction: column;
