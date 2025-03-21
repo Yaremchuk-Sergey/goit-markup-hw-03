@@ -352,7 +352,6 @@ a {
   color: #f4f4fd;
 }
 .finish .container {
-  display: flex;
   align-items: left;
   justify-content: flex-start;
   flex-direction: column;
@@ -362,3 +361,5 @@ a {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+display: inline-block;
