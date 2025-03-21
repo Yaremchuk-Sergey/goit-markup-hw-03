@@ -215,8 +215,26 @@ a {
 
 /* 3 секція */
 
+.text-three {
+  padding: 32px 16px 32px 16px;
+  align-items: center;
+}
+
+.container-heading-portfolio {
+  flex-direction: column;
+}
+
+.site-flex-two {
+  display: flex;
+  gap: 24px;
+}
+
 .page-two {
   background-color: #f4f4fd;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  padding: 120px 0;
 }
 
 .page-two .heading-two {
@@ -230,6 +248,9 @@ a {
 
 .page-two .img {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  height: 380px;
 }
 
 .heading-two {
@@ -239,6 +260,7 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .text-list-two {
@@ -255,9 +277,21 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 32px;
 }
 
 /* 4 секція */
+
+.page-four .container {
+  flex-direction: column;
+}
+
+.page-four-flex {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 
 .page-four .heading-two {
   font-size: 36px;
