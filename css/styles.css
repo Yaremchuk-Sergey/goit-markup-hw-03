@@ -136,8 +136,6 @@ a {
 .page-main {
   background-color: #2e2f42;
   color: #ffffff;
-  width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
   padding: 188px 0;
 }
@@ -239,8 +237,6 @@ a {
 
 .page-two {
   background-color: #f4f4fd;
-  width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
   padding: 120px 0;
 }
@@ -298,11 +294,9 @@ a {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
 }
 
 .page-four {
@@ -337,8 +331,6 @@ a {
 
 .finish {
   background-color: #2e2f42;
-  width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
   padding: 100px 0;
 }
